@@ -6,6 +6,23 @@ Version 2.2.0
 Unreleased
 
 
+Version 2.1.2
+-------------
+
+-   Allowed `json.loads` function to accept bytes and bytes array,
+    which is now accepted by built-in :func:json.loads with
+    Python > 3.6, :issue:`4519`
+
+
+Version 2.1.1
+-------------
+
+Released on 2022-03-30
+
+-   Set the minimum required version of importlib_metadata to 3.6.0,
+    which is required on Python < 3.10. :issue:`4502`
+
+
 Version 2.1.0
 -------------
 
